@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HackerPy - Python para o Mercado de Trabalho</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header/Navegação -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">
+                    <i class="fab fa-python"></i>
+                    <span>HackerPy</span>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#plans">Planos</a></li>
+                    <li><a href="#how-it-works">Como Funciona</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+                <div class="nav-cta">
+                    <a href="#plans" class="btn btn-primary">Começar Agora</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Transforme seu conhecimento em <span class="highlight">Python</span> em uma carreira de sucesso</h1>
+                <p class="hero-subtitle">A plataforma definitiva para estudantes universitários que buscam dominar Python e conquistar seu primeiro estágio ou emprego na área de tecnologia.</p>
+                <div class="hero-cta">
+                    <a href="#plans" class="btn btn-primary btn-large">Explorar Planos</a>
+                    <a href="#about" class="btn btn-secondary btn-large">Saiba Mais</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>Por que a HackerPy é diferente?</h2>
+                <p>Desenvolvido especialmente para estudantes que sentem que a faculdade não é suficiente</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                    </div>
+                    <h3>Aulas ao Vivo</h3>
+                    <p>Lives no YouTube com conteúdo prático e direto ao ponto.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-tasks"></i>
+                    </div>
+                    <h3>Atividades Práticas</h3>
+                    <p>Projetos reais e desafios que simulam situações do dia a dia de um desenvolvedor Python profissional.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-user-graduate"></i>
+                    </div>
+                    <h3>Mentoria Personalizada</h3>
+                    <p>Acompanhamento individual para acelerar seu desenvolvimento e preparação para entrevistas técnicas.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3>Foco no Mercado</h3>
+                    <p>Conteúdo alinhado com as demandas reais das empresas, frameworks modernos e melhores práticas da indústria.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Plans Section -->
+    <section id="plans" class="plans">
+        <div class="container">
+            <div class="section-header">
+                <h2>Escolha o plano ideal para você</h2>
+                <p>Comece sua jornada rumo ao mercado de trabalho hoje mesmo</p>
+            </div>
+            <div class="plans-grid">
+
+                <div class="plan-card">
+                    <div class="plan-header">
+                        <h3>Plano Tô Quebrado</h3>
+                        <div class="plan-price">
+                            <span class="currency">R$</span>
+                            <span class="amount">49</span>
+                            <span class="period">/mês</span>
+                        </div>
+                    </div>
+                    <ul class="plan-features">
+                        <li><i class="fas fa-check"></i> <b>Acesso a todas as lives</b></li>
+                        <li><i class="fas fa-check"></i> Grupo no WhatsApp</li>
+                        <li><i class="fas fa-check"></i> Tudo sobre Python</li>
+                        <li class="disabled"><i class="fas fa-times"></i> Acesso aos repositórios</li>
+                        <li class="disabled"><i class="fas fa-times"></i> Aulas de Orientação a Objetos</li>
+                        <li class="disabled"><i class="fas fa-times"></i> Sessões de revisão de código</li>
+                        <li class="disabled"><i class="fas fa-times"></i> Atividades práticas semanais</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-outline">Começar Agora</a>
+                </div>
+                <!-- Plano Básico -->
+                <div class="plan-card">
+                    <div class="plan-header">
+                        <h3>Plano Júnior Brabo</h3>
+                        <div class="plan-price">
+                            <span class="currency">R$</span>
+                            <span class="amount">99</span>
+                            <span class="period">/mês</span>
+                        </div>
+                    </div>
+                    <ul class="plan-features">
+                        <li><i class="fas fa-check"></i> <b>Tudo do Plano Tô Quebrado</b></li>
+                        <li><i class="fas fa-check"></i> Acesso aos repositórios</li>
+                        <li><i class="fas fa-check"></i> Aulas de Orientação a Objetos</li>
+                        <li><i class="fas fa-check"></i> Sessões de revisão de código</li>
+                        <li><i class="fas fa-check"></i> Atividades práticas semanais</li>
+                        <li class="disabled"><i class="fas fa-times"></i> Sistemas em produção</li>
+                        <li class="disabled"><i class="fas fa-times"></i> Preparação para entrevistas</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-outline">Começar Agora</a>
+                </div>
+
+                <!-- Plano Pro -->
+                <div class="plan-card featured">
+                    <div class="plan-badge">Mais Popular</div>
+                    <div class="plan-header">
+                        <h3>Plano Pleno God</h3>
+                        <div class="plan-price">
+                            <span class="currency">R$</span>
+                            <span class="amount">197</span>
+                            <span class="period">/mês</span>
+                        </div>
+                    </div>
+                    <ul class="plan-features">
+                        <li><i class="fas fa-check"></i> <b>Tudo do Plano Júnior Brabo</b></li>
+                        <li><i class="fas fa-check"></i> Conteúdo avançado exclusivo*</li>
+                        <li><i class="fas fa-check"></i> Conteúdo personalizado</li>
+                        <li><i class="fas fa-check"></i> <b>Sistemas em produção</b></li>
+                        <li><i class="fas fa-check"></i> Projetos reais de portfólio</li>
+                        <li><i class="fas fa-check"></i> <b>Preparação para entrevistas</b></li>
+                        <li class="disabled"><i class="fas fa-times"></i> Estudo avançado de algoritmos</li>
+                        <li class="disabled"><i class="fas fa-times"></i> System Design</li>
+                        <li class="disabled"><i class="fas fa-times"></i> Mentoria individual</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-primary">Começar Agora</a>
+                </div>
+
+                <!-- Plano Elite -->
+                <div class="plan-card">
+                    <div class="plan-header">
+                        <h3>Plano Senior Calvo</h3>
+                        <div class="plan-price">
+                            <span class="currency">R$</span>
+                            <span class="amount">397</span>
+                            <span class="period">/mês</span>
+                        </div>
+                    </div>
+                    <ul class="plan-features">
+                        <li><i class="fas fa-check"></i> <b>Tudo do Plano Pleno God</b></li>
+                        <li><i class="fas fa-check"></i> <b>Mentoria individual quinzenal</b></li>
+                        <li><i class="fas fa-check"></i> <b>Aulas avançadas de algoritmos</b></li>
+                        <li><i class="fas fa-check"></i> <b>System Design</b></li>
+                        <li><i class="fas fa-check"></i> <b>Simulações de entrevistas técnicas</b></li>
+                    </ul>
+                    <a href="#contact" class="btn btn-outline">Começar Agora</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How it Works -->
+    <section id="how-it-works" class="how-it-works">
+        <div class="container">
+            <div class="section-header">
+                <h2>Como funciona a HackerPy?</h2>
+                <p>Um processo simples e eficaz para transformar você em um desenvolvedor Python pronto para o mercado</p>
+            </div>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>Inscreva-se</h3>
+                        <p>Escolha o plano que melhor se adequa aos seus objetivos e faça sua inscrição.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>Participe das Lives</h3>
+                        <p>Assista às aulas ao vivo no YouTube e tire dúvidas em tempo real.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>Pratique & Desenvolva</h3>
+                        <p>Complete as atividades extraclasse, desenvolva projetos para seu portfólio e receba feedback nas sessões de revisão.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <h3>Conquiste sua Vaga</h3>
+                        <p>Com conhecimento sólido e portfólio robusto, você estará pronto para conquistar seu estágio ou primeiro emprego.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <!--
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>O que nossos alunos dizem</h2>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"A HackerPy mudou completamente minha perspectiva sobre programação. Em 4 meses consegui meu primeiro estágio como desenvolvedor Python!"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">JM</div>
+                        <div class="author-info">
+                            <h4>João Miguel</h4>
+                            <span>Estudante de Ciência da Computação</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"As sessões de revisão de código foram essenciais para eu entender onde estava errando. O feedback personalizado fez toda a diferença!"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">AS</div>
+                        <div class="author-info">
+                            <h4>Ana Silva</h4>
+                            <span>Estudante de Sistemas de Informação</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"A comunidade no WhatsApp é incrível! Sempre alguém disposto a ajudar e os artigos compartilhados são de altíssima qualidade."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">RC</div>
+                        <div class="author-info">
+                            <h4>Rafael Costa</h4>
+                            <span>Estudante de Engenharia de Software</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+     -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Pronto para começar sua jornada?</h2>
+                <p>Entre em contato comigo e tire todas as suas dúvidas</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Fale Comigo</h3>
+                    <p>Estou pronto para ajudar você a escolher o melhor plano e responder todas as suas perguntas.</p>
+
+                    <div class="contact-methods">
+                        <a href="https://wa.me/5511999999999?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20HackerPy" target="_blank" class="contact-method whatsapp">
+                            <div class="contact-icon">
+                                <i class="fab fa-whatsapp"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>WhatsApp</h4>
+                                <p>(51) 993745044</p>
+                            </div>
+                        </a>
+
+                        <a href="https://www.youtube.com/@HackerPyBr" target="_blank" class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fab fa-youtube"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>YouTube</h4>
+                                <p>@HackerPyBr</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="logo">
+                        <i class="fab fa-python"></i>
+                        <span>HackerPy</span>
+                    </div>
+                    <p>Transformando estudantes em desenvolvedores Python prontos para o mercado de trabalho.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="#about">Sobre</a></li>
+                        <li><a href="#plans">Planos</a></li>
+                        <li><a href="#how-it-works">Como Funciona</a></li>
+                        <li><a href="#contact">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Recursos</h4>
+                    <ul>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Materiais Gratuitos</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Termos de Uso</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Fale Conosco</h4>
+                    <ul>
+                        <li><i class="fab fa-whatsapp"></i> (11) 99999-9999</li>
+                        <li><i class="fas fa-envelope"></i> contato@hackerpy.com.br</li>
+                        <li><i class="fas fa-map-marker-alt"></i> São Paulo, SP - Brasil</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 HackerPy. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/5511999999999?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20HackerPy" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
